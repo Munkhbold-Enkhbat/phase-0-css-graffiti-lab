@@ -7,6 +7,7 @@
   display: none;
 }
 
+/* target selector has a long name with space in between */
 #wall #tag-3.slick.wicked {
   display: none;
 }
@@ -15,14 +16,17 @@
   display: none;
 }
 
+/* multiple selectors of one target element */
 div#wall .parent div#tag-5.slick {
   display: none;
 }
 
+/* last_child of the specific element's multiple children */
 body div#wall div.parent div:last-child div#tag-6 {
   display: none;
 }
 
+/* immediate children of the specific element '>' */
 body div#wall div.parent div > div#tag-7.slick {
   display: none;
 }
